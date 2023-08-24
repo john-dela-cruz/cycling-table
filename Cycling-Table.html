@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		caption{
+			text-align:left;
+			font-size:20px;
+		}
+		.purple{
+			background-color:#9460b3;
+			color:#9460b3;
+		}
+		.blue{
+			background-color:#00a4df;
+			color:#00a4df;
+		}
+		.green{
+			background-color:#95eb80;
+			color:#95eb80;
+		}
+		.yellow{
+			background-color:#fbf962;
+			color:#fbf962;
+		}
+		th{
+			font-weight:Normal;
+			font-size:20px;
+		}
+		td{
+			border:1px solid black
+		}
+		.header{
+			background-color:#02275b;
+			color:white;
+		}
+		.reserve{
+			background-color:#bfc9d3;
+			text-align:center;
+		}
+		.days{
+			background-color:#d6e7f8;
+		}
+		.hiking{
+			background-color:#95eb80;
+		}
+		.beginner{
+			background-color:#9460b3;
+		}
+		.camping{
+			background-color:#fbf962;
+		}
+		.distance{
+			background-color:#00a4df;
+		}
+		p{
+			margin-top:0%;
+			margin-left:61%;
+			font-size:11px;
+		}
+	</style>
+</head>
+<body>
+	<table>
+		<caption>Legend:</caption>
+		<tr>
+			<th><span class="purple">oo</span> Beginner Cycling </th>
+			<th><span class="blue">oo</span> Long Distance Cycling </th>
+			<th><span class="green">oo</span> Hiking </th>
+			<th><span class="yellow">oo</span> Camping </th>
+		</tr>
+	</table>
+	<table>
+		<tr class="header">
+			<td> Day </td>
+			<td> 7 am - 9 am </td>
+			<td> 9 am - 11 am </td>
+			<td> 11 am - 12 pm </td>
+			<td> 12 pm - 2 pm </td>
+			<td> 2 pm - 4 pm </td>
+			<td> 6 pm - 8 pm </td>
+			<td> 8 pm - 10 pm </td>
+		</tr>
+		<tr>
+			<td class="days"> Monday </td>
+			<td class ="reserve" colspan="7"> Reserved for groups </td>
+		</tr>
+		<tr>
+			<td class="days"> Tuesday </td>
+			<td class="hiking"> Hiking </td>
+			<td class="beginner"> Beginner Cycling </td>
+			<td class="camping" colspan="5"> Camping </td>
+		</tr>
+		<tr>
+			<td class="days"> Wednesday </td>
+			<td class="distance" rowspan="2"> Long Distance Cycling Part 2 </td>
+			<td> </td>
+			<td class="beginner"> Beginner Cycling </td>
+			<td class="camping" rowspan="2"> Camping in Asia </td>
+			<td class="hiking" colspan="2" rowspan="3"> Hiking </td>
+			<td class="distance" rowspan="2"> Long Distance Cycling Part 2 </td>
+		</tr>
+		<tr>
+			<td class="days"> Thursday </td>
+			<td class="camping"> Camping </td>
+			<td> </td>
+		</tr>
+		<tr>
+			<td class="days"> Friday </td>
+			<td class="camping" rowspan="4"> Camping in Europe </td>
+			<td class="beginner" colspan="2"> Beginner Cycling </td>
+			<td> </td>
+			<td> </td>
+		</tr>
+		<tr>
+			<td class="days"> Saturday </td>
+			<td class="hiking" rowspan="2" colspan="3"> Hiking </td>
+			<td class="beginner"> Beginner Cycling </td>
+			<td class="distance" rowspan="2" colspan="2"> Long Distance Cycling Part 1 and Part 2 </td>
+		</tr>
+		<tr>
+			<td class="days"> Sunday </td>
+			<td> </td>
+		</tr>
+		<tr>
+			<td class="days"> Holidays </td>
+			<td class="distance" colspan="2"> Long Distance Cycling </td>
+			<td class ="reserve" colspan="4"> No Seminars </td>
+		</tr>
+	</table>
+	<p>Schedule is subject to change</p>
+</body>
+</html>
